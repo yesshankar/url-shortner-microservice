@@ -1,0 +1,27 @@
+{
+  "name": "url-shortener-microservice",
+  "version": "1.0.0",
+  "description": "\"A small project form FCC\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yesshankar/url-shortner-microservice.git"
+  },
+  "author": "\"Shankar Khatri\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yesshankar/url-shortner-microservice/issues"
+  },
+  "homepage": "https://github.com/yesshankar/url-shortner-microservice#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
+    "mongodb": "^3.2.3",
+    "mongoose": "^5.5.5"
+  }
+}
